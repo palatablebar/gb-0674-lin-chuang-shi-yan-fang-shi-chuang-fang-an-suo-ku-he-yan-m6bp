@@ -9,6 +9,7 @@
     "访视排窗",
     "偏离复核",
     "复检裁决",
+    "质量抽查",
     "锁库检查",
     "冻结归档"
   ],
@@ -28,6 +29,7 @@
     "windows",
     "deviation",
     "retest",
+    "sampling",
     "locking",
     "archive"
   ],
@@ -62,6 +64,16 @@
     "deviations": "偏离",
     "retest_issues": "复检问题",
     "blocked": "阻断项",
-    "status": "状态"
+    "status": "状态",
+    "subject": "受试者",
+    "category": "席位类别",
+    "rank": "席次",
+    "risk_codes": "风险原因码",
+    "basis": "入选依据",
+    "sampling_status": "抽查状态",
+    "sampling_pending": "抽查待定",
+    "quota": "名额",
+    "min_control": "最少对照位",
+    "undetermined": "待定原因"
   }
 }

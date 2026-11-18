@@ -11,8 +11,9 @@
 | M3 访视排窗 | 执行并复核访视排窗 | `POST /api/windows` | `app/modules/windows/rules.py` | `tests/test_windows.py` |
 | M4 偏离复核 | 执行并复核偏离复核 | `POST /api/deviation` | `app/modules/deviation/rules.py` | `tests/test_deviation.py` |
 | M5 复检裁决 | 执行并复核复检裁决 | `POST /api/retest` | `app/modules/retest/rules.py` | `tests/test_retest.py` |
-| M6 锁库检查 | 执行并复核锁库检查 | `POST /api/locking` | `app/modules/locking/rules.py` | `tests/test_locking.py` |
-| M7 冻结归档 | 执行并复核冻结归档 | `POST /api/archive` | `app/modules/archive/rules.py` | `tests/test_archive.py` |
+| M6 质量抽查 | 执行并复核锁定批抽查 | `POST /api/sampling` | `app/modules/sampling/rules.py` | `tests/test_sampling.py` |
+| M7 锁库检查 | 执行并复核锁库检查 | `POST /api/locking` | `app/modules/locking/rules.py` | `tests/test_locking.py` |
+| M8 冻结归档 | 执行并复核冻结归档 | `POST /api/archive` | `app/modules/archive/rules.py` | `tests/test_archive.py` |
 
 ## 陷阱登记
 
